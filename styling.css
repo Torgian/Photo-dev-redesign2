@@ -1,0 +1,133 @@
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	font: normal 1.1em/1.5 sans-serif;
+	color: #222;
+	background-color: #edeff0;
+}
+
+
+
+/* Colors */
+/*.main-header {background-color:rgba(14, 127, 17, .5);}
+.main-nav a {background-color: orange;}*/
+
+/*Main Layout */
+
+li {list-style-type: none;}
+
+h2 {font-size: 1.5em;}
+
+
+.main-header {
+	padding: 10px;
+	position:fixed;
+	width:100%;
+	top: 0;
+	}
+
+
+.main-nav a {
+	text-decoration: none;
+}
+
+.main-logo {
+	background-color:#f2f2f2;
+	border-radius: 40px;
+	font-size: 16px;
+	text-align: center;
+	padding-top:5px;
+	width:140px;
+	height:25px;
+	color:black;
+}
+/*.main-nav {
+	padding:0;
+	text-align: center;
+}
+
+.main-nav li {
+	display: inline;
+	margin:10px 5px;
+
+}*/
+
+/*HOME PAGE*/
+
+.home-page {
+	width:100%;
+	height:auto;
+	position:relative;
+	z-index: -1;
+	padding:0;
+}
+
+
+
+/*View Work home button */
+
+#view_button {
+	background-color:#F8F8F8;
+	border-radius: 40px;
+	font-family:"Savoye LET", Serif;
+	font-size: 30px;
+	width:140px;
+	height:45px;
+	color:black;
+	text-align: center;
+	padding-top:5px;
+	margin-left:15px;
+	position:absolute;
+	bottom:20%;
+
+}
+
+.container {
+	background-color:lightgray;
+}
+
+#view_button:hover {
+	text-decoration: none;
+	background-color:none;
+}
+/*dry classes*/
+
+.butn {
+  background: #e69915;
+  background-image: -webkit-linear-gradient(top, #e69915, #e69b2b);
+  background-image: -moz-linear-gradient(top, #e69915, #e69b2b);
+  background-image: -ms-linear-gradient(top, #e69915, #e69b2b);
+  background-image: -o-linear-gradient(top, #e69915, #e69b2b);
+  background-image: linear-gradient(to bottom, #e69915, #e69b2b);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 1em;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #1dde23;
+  text-decoration: none;
+}
+
+
+
+/*footer*/
+footer {
+	text-align: center;
+
+	}
+
+
+	/*clear flix */
+.group::after {
+	content: " ";
+	display:table;
+	clear:both;
+}
